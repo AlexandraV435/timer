@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'lato';
+  src: url('Lato-Light.ttf')
+}
+
+
+.timer_items {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  background-image: url("images/bg-stars.svg");
+  background-color: #1e1e28;
+}
+
+.hills {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#days, #hours, #minutes, #seconds {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(rgb(210, 83, 112) 51%, rgb(250, 95, 131), rgb(250, 95, 131) 23%);
+  font-size: 50px;
+  margin-top: 22px
+}
+
+.launch {
+  color: #fbfbfc;
+  font-size: 13px;
+  font-family: 'lato';
+  margin-left: 42vw;
+  margin-top: 50px;
+}
+
+.items {
+  width: 100px;
+  height: 100px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, rgb(44, 44, 68) 51%, rgb(52, 54, 79), rgb(52, 54, 79) 45%);
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 50px;
+  display: flex;;
+  flex-direction: column;
+}
+
+
+.days {
+  margin-left: 31vw;
+}
+
+.text {
+  margin-top: -20%;
+  color: #5a546d
+}
